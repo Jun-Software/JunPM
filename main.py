@@ -17,7 +17,7 @@ def download(packageName: str, update: bool):
     response = ""
     retry = 0
     if len(sys.argv) > 3:
-        url = argv[3]
+        url = sys.argv[3]
     else:
         url = "https://pm.imjcj.eu.org/libs"
     try:
